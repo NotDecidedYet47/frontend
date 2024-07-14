@@ -1,11 +1,11 @@
 "use client";
-
-import styles from "../styles/index.module.css";
+import { Button } from "@repo/ui/components/ui/button";
 
 export default function Web() {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>Web</h1>
+      <Button>Boom!</Button>
     </div>
   );
 }

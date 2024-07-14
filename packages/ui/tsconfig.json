@@ -1,6 +1,6 @@
 {
   "extends": "@repo/typescript-config/react-native-library",
-  "include": [".", "../tailwind-config/tailwind.config.js", "../tailwind-config/postcss.config.ts"],
+  "include": [".", "../tailwind-config/tailwind.config.js", "../tailwind-config/postcss.config.js"],
   "exclude": ["dist", "build", "node_modules"],
   "compilerOptions": {
     "baseUrl": ".",
