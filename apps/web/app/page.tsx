@@ -1,11 +1,11 @@
 "use client";
-import { Button } from "@repo/ui/components/ui/button";
+import { Button, ThemeToggle } from "@repo/ui";
 
-export default function Web() {
+export default function Page(): JSX.Element {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button>Boom!</Button>
-    </div>
+    <main className="flex flex-col items-center justify-center w-full gap-2">
+      <ThemeToggle />
+      <Button>{"shadcn Button in Web!"}</Button>
+    </main>
   );
 }
