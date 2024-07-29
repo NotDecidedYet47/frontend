@@ -1,11 +1,12 @@
 "use client";
-import { Button, ThemeToggle } from "@repo/ui";
+import WithPostMessage from "../layouts/WithPostMessage";
+import RNListener from "../layouts/RNListener";
 
-export default function Page(): JSX.Element {
+export default function Page() {
   return (
-    <main className="flex flex-col items-center justify-center w-full gap-2">
-      <ThemeToggle />
-      <Button>{"shadcn Button in Web!"}</Button>
-    </main>
+    <>
+      <h1>Hi</h1>
+      <RNListener />
+    </>
   );
 }
